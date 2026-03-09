@@ -29,6 +29,7 @@ const App = () => (
             <Route path="/dashboard" element={<UserDashboard />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
+          <ContactFab />
         </BrowserRouter>
       </TooltipProvider>
     </AuthProvider>
