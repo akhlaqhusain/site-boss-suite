@@ -1,11 +1,8 @@
 import { bookingsData } from "@/data/equipment";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Badge } from "@/components/ui/badge";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { useAuth } from "@/contexts/AuthContext";
 import { Navigate } from "react-router-dom";
-import { CalendarDays } from "lucide-react";
 
 const statusBadge: Record<string, string> = {
   pending: "bg-primary text-primary-foreground",
