@@ -35,7 +35,7 @@ const Index = () => {
         <div className="relative z-10 container mx-auto px-4">
           <div className="max-w-2xl animate-fade-in-up">
             <div className="section-stripe mb-6">
-              <span className="text-primary font-heading tracking-widest text-sm">CONSTRUCTION EQUIPMENT RENTAL</span>
+              <span className="text-primary font-heading tracking-widest text-sm">KK & SONS EQUIPMENT RENTAL</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-heading text-secondary-foreground leading-tight mb-6">
               Power Your Projects With <span className="text-primary">Heavy Machinery</span>
